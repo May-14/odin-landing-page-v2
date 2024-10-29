@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "roboto", sans-serif;
+}
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 10vh;
+    padding: 0 15%;
+}
+
+header > span {
+    color: #F9FAF8;
+    font-size: 24px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.links span {
+    font-size: 18px;
+    color: #E5E7EB;
+}
