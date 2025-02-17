@@ -61,6 +61,7 @@ h1 {
     background-color: #6C747D;
     height: 50%;
     color: #E5E7EB;
+    text-align: center;
 }
 
 .section-1 div:nth-of-type(1) p:last-child {
@@ -115,3 +116,65 @@ h2 {
     width: 900;
 }
 
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 14vh 20% 12vh;
+    background-color: #E5E7EB;
+}
+
+.section-3 p {
+    font-size: 36px;
+    font-style:italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.section-3 span {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1F2937;
+    padding-right: 10%;
+}
+
+.section-4 {
+    height: 35vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 80vw;
+    height: 10vh;
+    display: flex;
+    padding: 12vh 18%;
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.invitation > p:last-child {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.invitation p:first-child {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content div:last-child p{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding: 0.6vh 1.5vw;
+    width: auto;
+    border: white 1px solid;
+    border-radius: 5px;
+}
