@@ -140,7 +140,7 @@ h2 {
 }
 
 .section-4 {
-    height: 35vh;
+    height: 45vh;
     background-color: white;
     display: flex;
     align-items: center;
@@ -151,11 +151,12 @@ h2 {
     width: 80vw;
     height: 10vh;
     display: flex;
-    padding: 12vh 18%;
+    padding: 12vh 10%;
     background-color: #3882F6;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 10vw;
+    border-radius: 10px;
 }
 
 .invitation > p:last-child {
