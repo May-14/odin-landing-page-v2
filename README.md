@@ -1,1 +1,1 @@
-# odin-landing-page-v2
+a project to demonstrate my current skills of html and css (specially flex-box)
